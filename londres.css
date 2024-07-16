@@ -1,0 +1,55 @@
+body{
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 0 10%;
+    background-color: hwb(175 30% 30%);
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+    color: hwb(175 0% 70%);
+    margin: 0;
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    color: hwb(175 0% 70%);
+}
+a:visited{
+    color: hwb(20 0% 10%);
+}
+section{
+    background-color: white;
+    margin: 40px;
+    padding: 30px 40px;
+    clear: both;
+    overflow: auto;
+}
+section.uno{
+    border: hwb(20 0% 10%) solid 20px;
+}
+section.dos{
+    border: hwb(35 20% 0%) solid 20px;
+}
+h2{
+    margin-top: 0;
+}
+img{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+section.uno img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: hwb(20 0% 10%) 20px solid;
+    background-color: hwb(35 20% 0%);
+}
+section.dos img{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: hwb(35 20% 0%) 20px solid;
+    background-color: hwb(20 0% 10%);
